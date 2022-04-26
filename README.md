@@ -17,8 +17,8 @@ npm install @mwjz/pinia-storage
 
 ## Usage
 
-```js
-import { PiniaStorage } from '@mwjz/pinia-debounce'
+```storage
+import { PiniaStorage } from '@mwjz/pinia-storage'
 
 // Pass the plugin to your application's pinia plugin
 pinia.use(PiniaStorage())

@@ -1,6 +1,6 @@
 {
   "name": "@mwjz/pinia-storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Persistence state in your pinia 🍍 store!",
   "publishConfig": {
     "access": "public"
@@ -19,6 +19,14 @@
     "name": "mowenjinzhao",
     "email": "yanzhangshuai@126.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanzhangshuai/pinia-storage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yanzhangshuai/pinia-storage/issues"
+  },
+  "homepage": "https://github.com/yanzhangshuai/pinia-storage#readme",
   "files": [
     "dist/*.js",
     "dist/*.mjs",
