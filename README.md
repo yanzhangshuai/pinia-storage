@@ -6,12 +6,6 @@
 <a href="https://npmjs.com/package/@mwjz/pinia-storage">
   <img src="https://badgen.net/npm/v/@mwjz/pinia-storage/latest" alt="npm package">
 </a>
-<a href="https://github.com/posva/pinia-plugin-debounce/actions/workflows/test.yml">
-  <img src="https://github.com/posva/pinia-plugin-debounce/workflows/test/badge.svg" alt="build status">
-</a>
-<a href="https://codecov.io/gh/posva/pinia-plugin-debounce">
-  <img src="https://codecov.io/gh/posva/pinia-plugin-debounce/branch/main/graph/badge.svg?token=9WqnRrLf1Q"/>
-</a>
 
 Persistence state in your pinia 🍍 store!
 
