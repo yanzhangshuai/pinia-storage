@@ -47,11 +47,14 @@
     "build:esm": "    tsup src/index.ts --format esm,cjs --dts --target es2020",
     "build:iife": "   tsup src/index.ts --format iife --minify --global-name PiniaStorage --target es2020",
     "test": "         jest --passWith-no-tests --watchAll",
-    "test:report": "  jest --passWith-no-tests --coverage"
+    "test:report": "  jest --passWith-no-tests --coverage",
+    "lint": "         eslint    ./src/**/*.ts --fix"
   },
   "devDependencies": {
+    "@antfu/eslint-config-ts": "^0.21.1",
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.26",
+    "eslint": "^8.14.0",
     "jest": "^27.5.1",
     "pinia": "^2.0.13",
     "ts-jest": "^27.1.4",
@@ -62,5 +65,8 @@
   },
   "peerDependencies": {
     "pinia": "^2.0.0"
-  }
+  },
+  "eslintConfig": {
+		"extends": "@antfu/eslint-config-ts"
+	}
 }
